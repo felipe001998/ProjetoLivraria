@@ -37,12 +37,12 @@
         <asp:TextBox ID="txtPrecovenda" runat="server"></asp:TextBox>
         <br />
         <br />
-        <asp:Button ID="Button1" runat="server" Text="Alterar" />
+        <asp:Button ID="btnAlterar" runat="server" OnClick="btnAlterar_Click" Text="Alterar" />
         <p>
             &nbsp;</p>
         <asp:Label ID="lblMensagem" runat="server" Text="Preencha os campos e clique no botão cadastrar"></asp:Label>
         <p>
-            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/produtos/IndexProduto.aspx">HyperLink</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/produtos/IndexProduto.aspx">Voltar</asp:HyperLink>
         </p>
     </form>
 </body>
